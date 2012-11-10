@@ -48,3 +48,4 @@ gem "zurb-foundation", ">= 3.2.0", :group => :assets
 gem "sendgrid", ">= 1.0.1"
 gem "omniauth", ">= 1.1.1"
 gem "omniauth-twitter"
+gem "quiet_assets", ">= 1.0.1", :group => :development
