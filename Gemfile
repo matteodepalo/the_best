@@ -36,3 +36,15 @@ gem 'jquery-rails'
 
 # To use debugger
 # gem 'debugger'
+
+gem "thin", ">= 1.5.0"
+gem "rspec-rails", ">= 2.11.4", :group => [:development, :test]
+gem "capybara", ">= 1.1.3", :group => :test
+gem "database_cleaner", ">= 0.9.1", :group => :test
+gem "email_spec", ">= 1.4.0", :group => :test
+gem "factory_girl_rails", ">= 4.1.0", :group => [:development, :test]
+gem "compass-rails", ">= 1.0.3", :group => :assets
+gem "zurb-foundation", ">= 3.2.0", :group => :assets
+gem "sendgrid", ">= 1.0.1"
+gem "omniauth", ">= 1.1.1"
+gem "omniauth-twitter"
